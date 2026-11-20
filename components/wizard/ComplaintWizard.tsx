@@ -414,8 +414,6 @@ export default function ComplaintWizard() {
       )}
 
       {screen === "success" && <SuccessScreen complaintNo={complaintNo} onReset={startOver} />}
-
-      <footer className="mt-10 text-center text-sm text-slate-600">{hi.footer}</footer>
     </main>
   );
 }
